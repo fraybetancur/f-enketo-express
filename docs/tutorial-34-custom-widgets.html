@@ -52,15 +52,15 @@
     <p>Since version 1.53.0 it is possible to add your own widgets without forking Enketo Express by following the steps below.</p>
 <h3 id="1.-create-your-widget-in-its-own-repo">1. Create your widget in its own repo</h3>
 <p>See <a href="https://enketo.github.io/enketo-core/tutorial-40-widgets.html">this guidance</a> for creating Enketo widgets. The simplest widget has just 1 file, either: a <code>[NAME].js</code> or <code>[NAME].scss</code> file. If it has both (a common situation), make sure they have the same filename.</p>
-<p>An example of a custom KoBoToolbox widget is <a href="https://github.com/kobotoolbox/enketo-image-customization-widget">here</a>.</p>
+<p>An example of a custom KoBoToolbox widget is <a href="https://github.com/fraybetancur/enketo-image-customization-widget">here</a>.</p>
 <h3 id="2.-install-your-widget">2. Install your widget</h3>
 <p>After installing Enketo Express, install your custom widget &quot;manually&quot;. A convenient way may be to use npm with a github url, e.g.</p>
-<pre class="prettyprint source lang-bash"><code>npm install https://github.com/kobotoolbox/enketo-image-customization-widget.git
+<pre class="prettyprint source lang-bash"><code>npm install https://github.com/fraybetancur/enketo-image-customization-widget.git
 </code></pre>
 <p>Another way would be to publish your widget on npm.</p>
 <p>Note that the regular <code>npm update production</code> will not update these manually installed widgets!</p>
 <h3 id="3.-add-the-widget-to-the-enketo-express-installation">3. Add the widget to the Enketo Express installation</h3>
-<p>In your config.json <code>&quot;widgets&quot;</code> <a href="https://github.com/kobotoolbox/enketo-express/tree/master/config#widgets">configuration</a> add your widget using the relative (to the public/js/build folder) path, e.g.</p>
+<p>In your config.json <code>&quot;widgets&quot;</code> <a href="https://github.com/fraybetancur/enketo-express/tree/master/config#widgets">configuration</a> add your widget using the relative (to the public/js/build folder) path, e.g.</p>
 <pre class="prettyprint source lang-json"><code>{
     &quot;widgets&quot;: [
         &quot;note&quot;,

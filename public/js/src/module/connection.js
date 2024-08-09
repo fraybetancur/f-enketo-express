@@ -100,7 +100,7 @@ function _uploadRecord(record) {
     let result;
 
     // Perform batch uploads sequentially for to avoid issues when connections are very poor and
-    // a serious issue with ODK Aggregate (https://github.com/kobotoolbox/enketo-express/issues/400)
+    // a serious issue with ODK Aggregate (https://github.com/fraybetancur/enketo-express/issues/400)
     return batches
         .reduce(
             (prevPromise, batch) =>

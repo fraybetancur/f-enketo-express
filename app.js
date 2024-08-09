@@ -34,7 +34,7 @@ if (cluster.isMaster) {
      * drops the connection, potentially resulting in the browser queue not emptying,
      * despite submitting successfully.
      *
-     * https://github.com/kobotoolbox/enketo-express/issues/564
+     * https://github.com/fraybetancur/enketo-express/issues/564
      */
     server.timeout = app.get('timeout') + 1000;
 }

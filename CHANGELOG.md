@@ -181,7 +181,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 -   [#380](https://github.com/enketo/enketo-express/pull/380) Fix: ensure form_logo.png is included when present in media mapping
 -   [#230](https://github.com/enketo/enketo-express/pull/230) Clearer recommendation phrasing in English translation for loading errors
 -   [#382](https://github.com/enketo/enketo-express/pulls/382) Update offline script version at build time
--   Upgraded to [enketo-core 6.0.4](https://github.com/enketo/enketo-core/blob/master/CHANGELOG.md#604---2022-02-04)
+-   Upgraded to [enketo-core 6.0.4](https://github.com/fraybetancur/f-enketo-core/blob/master/CHANGELOG.md#604---2022-02-04)
 -   Upgraded to [enketo-transformer 2.1.2](https://github.com/enketo/enketo-transformer/blob/master/CHANGELOG.md#212---2022-02-01)
 -   Upgraded to [openrosa-xpath-evaluator 2.0.10](https://github.com/enketo/openrosa-xpath-evaluator/blob/master/CHANGELOG.md#2010---2022-02-01)
 -   [#379](https://github.com/enketo/enketo-express/pull/379) Switch from Travis CI to GitHub Actions CI
@@ -1779,7 +1779,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
--   Ability to [add custom widgets](https://github.com/kobotoolbox/enketo-express/blob/master/doc/custom-widgets.md) or [remove default widgets](https://github.com/kobotoolbox/enketo-express/tree/master/config#widgets) in config.json. **Have an issue? Check whether your config.json contains an old "widgets" property. If so, you'll probably want to just remove it.**
+-   Ability to [add custom widgets](https://github.com/fraybetancur/enketo-express/blob/master/doc/custom-widgets.md) or [remove default widgets](https://github.com/fraybetancur/enketo-express/tree/master/config#widgets) in config.json. **Have an issue? Check whether your config.json contains an old "widgets" property. If so, you'll probably want to just remove it.**
 
 ### Fixed
 
@@ -2322,7 +2322,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
--   Advanced and regular single submission webform views and API endpoints. **WARNING: requires [additional configuration item](https://github.com/kobotoolbox/enketo-express/blob/master/config/README.md#less-secure-encryption-key)!**
+-   Advanced and regular single submission webform views and API endpoints. **WARNING: requires [additional configuration item](https://github.com/fraybetancur/enketo-express/blob/master/config/README.md#less-secure-encryption-key)!**
 
 ## 1.33.2 - 2016-09-16
 
@@ -2472,8 +2472,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 -   Not showing when comment question is in invalid state.
--   Duplicate Enketo Ids are issued. **WARNING: This is a critical fix. [Recommended to deploy immediately!](https://github.com/kobotoolbox/enketo-express/blob/master/doc/duplicates.md)**
--   Unfixable state of surveys with duplicate Enketo Id. ([Tool](https://github.com/kobotoolbox/enketo-express/blob/master/doc/duplicates.md) added to fix) \*\*
+-   Duplicate Enketo Ids are issued. **WARNING: This is a critical fix. [Recommended to deploy immediately!](https://github.com/fraybetancur/enketo-express/blob/master/doc/duplicates.md)**
+-   Unfixable state of surveys with duplicate Enketo Id. ([Tool](https://github.com/fraybetancur/enketo-express/blob/master/doc/duplicates.md) added to fix) \*\*
 
 ## 1.29.1 - 2016-05-11
 

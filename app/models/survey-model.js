@@ -266,7 +266,7 @@ function _updateProperties(id, survey) {
  * @return {Promise<Error|string>} Promise that eventually resolves with survey ID
  */
 function _addSurvey(openRosaKey, survey) {
-    // survey:counter no longer serves any purpose, after https://github.com/kobotoolbox/enketo-express/issues/481
+    // survey:counter no longer serves any purpose, after https://github.com/fraybetancur/enketo-express/issues/481
     return _createNewEnketoId().then(
         (id) =>
             new Promise((resolve, reject) => {
